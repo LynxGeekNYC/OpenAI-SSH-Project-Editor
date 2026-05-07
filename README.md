@@ -1,6 +1,6 @@
 # OpenAI SSH Project Editor
 AI SSH Project Editor is a local server-side C++ utility that allows you to make controlled code changes to a project directory using the OpenAI API. I got tired of using VS Code, uploading, downloading, etc.
-This automates the process for when I need ChatGPT to make a change to my projects. 
+This automates the process for when I need ChatGPT to make a change to my projects. Directly within the server using SSH.
 
 The tool is designed to be run manually after logging into your server through SSH. It does not give the AI unrestricted shell access. Instead, it scans a specific project directory, sends relevant project files to OpenAI, receives a Git-compatible patch, shows the patch to the user, backs up only the changed files, and applies the patch only after confirmation.
 
